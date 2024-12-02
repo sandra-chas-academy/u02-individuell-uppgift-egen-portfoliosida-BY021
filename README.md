@@ -1,77 +1,49 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/Y0f03qEq)
-# Instruktioner
+# u02-Individuell-uppgift
+u02- Individuell uppgift - Egen portfoliosida (HTML/CSS/JS)
 
-Denna uppgift går ut på att du bygga vidare uppgift u01 - Portfoliosida utifrån designskiss med Javascript. Du är nu fri att ändra till egen design / layout, samt eget innehåll. Det är dock viktigt att du behåller en sektion för CV ("About me") och en sektion med projekt ("Projects") eftersom du ska vidareutveckla sidan med Javascript på dessa sektioner. 
-
-## Vad du ska göra
-
-Du ska bygga vidare på  u01 - Portfoliosida utifrån designskiss med Javascript. och se till att du följer följande kravställningar: 
-
-### CV i en fil:
-Dina egna utbildningar och tidigare arbetsplatser ska nu ersätta "About me"-sidan. Ta med så mycket som möjligt att ditt "riktiga CV", men iallafall minst tre poster av varje.
-Vilka utbildningar du läst och vilka tidigare arbeten du haft ska ligga i en separat fil i JSON-format. Denna JSON-fil ska läsas och och generera ditt CV på den tidigare motsvarigheten av "About me" sidan.
+https://bakeryousif.netlify.app/
 
 
-### Interaktiva scripts:
-Din CV-sida ska innehålla minst två interaktiva JavaScript. Exempel kan vara en modal, slideshow, scroll-effekt, dölja/visa element, o.s.v
+### Sammanfattning av projekt och reflektion kring styrkor och ev brister.
 
-### Portfolio:
- Du publicerar minst två uppgifter / projekt från tidigare eller nuvarande studier / arbete inom HTML /CSS
+I detta projekt har jag lärt mig att använda JSON, fetcha i JS, använda funktioner och inplementera kod i HTML med JS.
 
-### 👉  VG-krav
+Jag har valt att jobba vidare på att utveckla tidigare HTML & CSS U01 hemsidan (Pavans) där jag har gjort uppdateringar med JSON och JS men tyvärr hann jag ej bli klar med About me och Project sidorna ännu, behöver lite mer tid för att göra klart. Anledingen är för att jag varit sjuk en hel vecka som gjorde att jag missat jätte mycket och dels för att den mesta tiden har gått åt grupparbetet u03 och lärandet. Jag förstår projektets instruktioner och har implementerat uppgiftens alla delar i Home, Contact & projects men har About me och komplettering av projects kvar. Jag har under uppgiften studerar in mycket teori samtidigt som jag testar mycket kod loggar. Vidare har jag även upptäckt en brist att jag inte kan lära mig många saker samtidigt utan måste ta en sak i taget annars kommer jag ej kunna komma ihåg någonting och fastnar i kod jätte länge.
 
-Din portfolio ska utökas så att den hämtar in publika projekt som finns i din egen Github via API. Den ska visa dessa projekt i din portfolio med namn och beskrivning.
+Det har varit svårt att bara lyssna och lära sig, min nya strategi är att anteckna mycket och ta en sak i taget samtidigt som jag testar kod hela tiden.
 
-Du får gärna ha både dessa projekt och andra som genereras utifrån JSON-data om du känner för det, eller så ersätter du projekten så det bara är dina Github-projekt. Eventuellt kan du behöva komplettera datan från Github API med t.ex bilder ifrån JSON-datan.
+### 1. Vad kan man utveckla med hjälp av JavaScript inom frontend?
 
-När hämtningen av projekten sker ska det finnas information om att projekten håller på att ladda in så att besökaren inte undrar varför sidan först är tom.
+JavaScript är ett mångsidigt programmeringsspråk för frontendutveckling och används för att skapa dynamiska och interaktiva webbapplikationer som ger användarna en mer engagerande upplevelse. JavaScript gör det möjligt att manipulera och förändra webbsidans innehåll utan att behöva ladda om sidan. Några viktiga områden där JavaScript används är:
 
+interaktivitet, händelsehantering, asynkron programering och API-anrop, Single Page Applications, animationer och grafiska effekter.
 
+- **Interaktivitet**: JavaScript används för att skapa interaktiva element på en webbsida, som knappar, formulär, menyer, bildspel och modala fönster. Med JavaScript kan man utveckla dynamiska förändringar på sidan baserat på användarens handlingar, etc. att visa eller dölja innehåll när en användare klickar på en knapp.
 
-### Tekniska krav:
-* Validerad med 0 fel på https://validator.w3.org
-* Inga errors i Console
+- **Asynkron programmering och API-anrop**: Genom att använda Asynchronous funktioner kan man hämta data från servrar utan att behöva ladda om hela sidan. Detta gör att man kan bygga applikationer som är snabbare och mer responsiva, som etc. chatt-appar och sociala medier.
 
-### Sammantfattning av projekt + teoretiska frågor
+- **Single Page Applications (SPA)**: JavaScript spelar en central roll i att skapa SPAs, där hela webbapplikationen laddas på en gång och endast en del av sidan uppdateras när användaren interagerar med applikationen.
 
-1. Du sammanfattar ditt projekt i README.md och reflekterar kring styrkor och ev brister. Max 500 ord.
-2. Du svarar på dessa frågor (max 800 ord):
+- **Animationer och grafiska effekter**: JavaScript kan även användas för att skapa animeringar och grafiska effekter på en webbsida.
 
-Vad kan man utveckla m.h.a av Javascript inom frontend?
-Vad är JSON och hur används det inom frontend?
-Vad är HTTP och varför bör man som frontendutvecklare ha kunskap om det och dess protokoll?
+### 2. Vad är JSON och hur används det inom frontend?
 
+JSON (JavaScript Object Notation) är ett lättviktigt format för att lagra och överföra data mellan en server/fil och en webbapplikation. Det är ett textbaserat format som är lätt att läsa och skriva. JSON är baserat på JavaScript-syntax. Json kan användas på följande sätt:
 
-## Kriterier för bedömning
+- **Dataöverföring mellan klient och server**: JSON är det vanligaste formatet för att skicka data mellan en webbapplikation och en server via HTTP. När en användare interagerar med en applikation och gör ett API-anrop (t.ex. för att hämta information eller skicka formulärdata) används JSON för att skicka data fram och tillbaka.
 
+- **Datahantering i JavaScript**: Eftersom JSON är baserat på JavaScript-objekt, kan det enkelt omvandlas till JavaScript-objekt med hjälp av `JSON.parse()` och kan även konverteras tillbaka till JSON med `JSON.stringify()`. Detta gör att utvecklare kan arbeta med data på ett enkelt och effektivt sätt.
 
-Icke Godkänd (IG), Godkänd (G) eller Väl Godkänd (VG)
+- **Lagras lokalt i webbläsaren**: JSON kan även användas för att lagra data på klientsidan, exempelvis i webbläsarens lokala lagring (localStorage). Detta gör det möjligt för webbapplikationer att bevara användardata mellan sessioner eller uppdateringar, vilket kan förbättra användarupplevelsen genom att spara inställningar eller tillfälliga data.
 
-### Godkänd (G)
-Din portfolio-sida uppfyller alla krav enligt kravspecifikationen.
-Du visar att du kan utan allvarliga brister eller missar utveckla denna portfoliosida enligt kraven
-Du sammanfattar ditt projekt samt ger ett översiktligt och korrekt svar på frågorna
+### 3. Vad är HTTP och varför bör man som frontendutvecklare ha kunskap om det och dess protokoll?
 
+HTTP (HyperText Transfer Protocol) är det protokoll som används för att överföra data mellan en webbläsare och en server. Det är grunden för hur webben fungerar, där varje gång en användare besöker en webbsida sker en begäran via HTTP från webbläsaren till servern, som svarar med den begärda sidan eller data. HTTP är ett statslöst protokoll, vilket innebär att varje begäran är oberoende av tidigare begärningar och servern inte sparar information om tidigare kommunikation.
 
-### Väl Godkänd (VG)
+Det är viktigt att ha stor förståelse av HTTP och dess protokoll av flera anledningar:
 
-Din portfolio-sida uppfyller alla krav enligt kravspecifikationen samt VG-kraven
-Du uppvisar en mer avancerad förståelse för Git genom att jobba med en developer-branch som du sedan mergar i main
-Du visar att du kan utan brister, eller bara i sådan omfattning att de knappt märks eller påverkar slutresultatet
+- **API-anrop**: Många moderna webbapplikationer använder externa API:er för att hämta data. Dessa API:er kommunicerar via HTTP. Att förstå HTTP:s metoder, som GET, POST, PUT och DELETE, gör att man kan bygga applikationer som interagerar effektivt med API:er. Till exempel används GET för att hämta data, POST för att skicka data till servern, och PUT för att uppdatera data.
 
+- **Statuskoder**: HTTP-statuskoder är viktiga för att förstå hur en server svarar på en begäran. Koder som 200 (OK), 404 (Not Found) och 500 (Internal Server Error) ger frontendutvecklare information om begärans resultat och hjälper till att hitta fel och problem i projektet på ett effektivt sätt.
 
-### Börja uppgift / Din inlämning
-* Du börjar och lämnar in din uppgift genom Github Classroom på denna länk.
-* Återkoppling ges i Canvas
-
-
-
-
-
-
-
-
-
-
-
-# 
+- **Säkerhet**: HTTP är grunden för internetkommunikation, och genom att använda HTTPS (den säkra versionen av HTTP) kan dataöverföring mellan klient och server krypteras och skyddas mot avlyssning. För frontendutvecklare är det viktigt att säkerställa att webbapplikationer är säkra, till exempel genom att använda HTTPS och hantera autentisering och sessioner på ett korrekt sätt.
