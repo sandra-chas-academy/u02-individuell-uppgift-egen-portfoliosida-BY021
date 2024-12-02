@@ -1,7 +1,7 @@
 # u02-Individuell-uppgift
 u02- Individuell uppgift - Egen portfoliosida (HTML/CSS/JS)
 
-https://chasacademy.instructure.com/courses/423/assignments/2319
+https://bakeryousif.netlify.app/
 
 
 ### Sammanfattning av projekt och reflektion kring styrkor och ev brister.
