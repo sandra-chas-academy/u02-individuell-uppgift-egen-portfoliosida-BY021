@@ -1,0 +1,13 @@
+[
+        {
+            "firstName": "Baker",
+            "lastName": "Yousif",
+            "birthYear": 1993,
+            "country": "Sweden",
+            "city": "Västerås,",
+            "phoneNumber": "073-714 25 23",
+            "email": "baker.yousif@chasacademy.se",
+            "occupation": "Student at Chas Academy",
+            "projects": "null"
+        }
+]

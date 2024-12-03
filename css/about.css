@@ -1,0 +1,75 @@
+h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    @media (min-width:1600px){
+        font-size:3rem;
+    }
+}
+
+.intro p {
+    margin-top: 30px;
+
+    @media (min-width:1600px){
+        width: 700px;
+    }
+}
+
+.content {
+    margin-top:40px;
+}
+
+.work {
+    margin-top:30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 1rem;
+}
+
+.work p {
+    font-weight: 300;
+    font-size:0.75rem;
+    line-height: 1.5;
+}
+
+.education {
+    margin-top: 40px;
+}
+
+.worktitle {
+    margin-bottom: 10px;
+
+    p {
+        font-size:1rem;
+        font-weight: 350;
+    }
+}
+
+.line {
+    border-bottom: 2px solid lightgray;
+}
+
+.worktime {
+    background: rgba(215, 255, 225, 1);
+    color: rgba(1, 140, 15, 1);
+    border-radius: 1.5rem;
+    padding: 0.25rem 0.75rem;
+    text-align: center;
+    font-size: 10px;
+    float:right;
+    margin-bottom: 10px;
+
+    p {
+        font-weight:900;
+    }
+}
+
+.break {
+    display: inline-block;
+}
+
+img {
+    width: 12px;
+    height: auto;
+}
