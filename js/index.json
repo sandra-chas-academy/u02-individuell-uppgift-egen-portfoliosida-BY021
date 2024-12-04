@@ -1,13 +1,110 @@
-[
-        {
+{
+    "about":
+    [
+        {   
+            "profilePicture": "../images/profile_picture.JPG",
             "firstName": "Baker",
             "lastName": "Yousif",
             "birthYear": 1993,
             "country": "Sweden",
             "city": "Västerås,",
-            "phoneNumber": "073-714 25 23",
+            "phoneNumber": "+46 73-714 25 23",
             "email": "baker.yousif@chasacademy.se",
-            "occupation": "Student at Chas Academy",
-            "projects": "null"
+            "currentOccupation": "Student at Chas Academy",
+            "autobiography": "A high ambitious person with a business oriented mind, gets things done and not afraid to try new things. People often descripe me as social, kind, ambitious, smart, responsible, loyal, funny and someone who keeps his word whatever the cost.",
+            "lifeQuote":"- Work hard but smart ~ Baker Yousif" 
+        }   
+    ],
+    
+    "education":
+    [
+        {
+            "title":"Fullstack Javascript Webdeveloper",
+            "school": "Chas Academy",
+            "type": "University College",
+            "location": "Stockholm, Sweden",
+            "duration": "2 years",
+            "period": "2024 - 2026",
+            "description":"2 years learning Web Development, more specific Fullstack Javascript Developer including both front-end and back-end courses in HTML, CSS, JS, REACT, NODE.JS. This course ends with a 6 months of internship."
+        },
+        {
+            "title":"Construction Program",
+            "school": "Wenströmska / Hahrska Gymnasiet",
+            "type":"Highschool",
+            "location": "Västerås, Sweden",
+            "duration": "3 years",
+            "period": "2010 - 2013",
+            "description":"Construction education oriented in tiling and masin works including building regulations."
         }
-]
+    ],
+        
+    "work":
+    [
+        {
+            "location":"Västerås, Sweden",
+            "place": "AB SVENSK BYGG & FÖRVALTNING",
+            "role": "Property Maintenance",
+            "description":"Maintaining properties within Mälaredalen",
+            "period": "2015 - 2015",
+            "duration": "6 months"
+        },
+        {
+            "location":"Kolbäck, Sweden",
+            "place": "SIT DOWN",
+            "role": "Worker & Teamleader",
+            "description":"Building stages for huge events.",
+            "period": "2017 - 2019",
+            "duration": "2 years"
+        },
+        {
+            "location":"Västerås, Sweden",
+            "place": "ICA SVERIGE AB",
+            "role": "Warehouse Worker",
+            "description":"Collected groceries and goods reciever (controller).",
+            "period": "2019 - 2024",
+            "duration": "5 years"
+        }
+    ],
+        
+    "experience":
+    [
+        {
+            "type":"Entrepreneur & Business Management",
+            "place": "Sweden, Iraq, Bulgaria, Kenya, UAE, Liberia, Austria, USA and South Africa",
+            "role": "Chief Executive Officer (CEO) & Managing Director",
+            "description":"Running several bussiness within general trading, real estate, consulting, strategic planning, postal service, grocery store and construction",
+            "period": "2015 - present",
+            "duration": "5 years"
+        },
+         {
+            "type":"Startup Project Management",
+            "place": "Karlskoga, Sweden",
+            "role": "Project Manager",
+            "description":"Managed a startup project from zero to delivery whereas a presentation of a strategic business proposal were accepted by investors.",
+            "period": "2022 - 2022",
+            "duration": "1 years"
+        }
+    ],
+        
+    "projects":
+    [
+        {
+            "name":"Traffic Light",
+            "place": "Chas Academy University College",
+            "year": "2024",
+            "description":"A simple illustration of a traffic light with only HTML & CSS.",
+            "github": "https://github.com/BY021/Traffic-Light",
+            "link": "https://by021.github.io/Traffic-Light/",
+            "logo": "../images/trafficlight.png"
+        },
+        {
+            "name":"First Website",
+            "place": "Chas Academy University College",
+            "year": "2024",
+            "description":"My first biography website using HTML, CSS, JSON & JS.",
+            "github": "https://github.com/sandra-chas-academy/u02-individuell-uppgift-egen-portfoliosida-BY021",
+            "link": "https://bakeryousif.netlify.app/",
+            "logo": "../images/projectlogo.png"
+        }
+    ]
+}

@@ -176,8 +176,7 @@ nav a {
     -webkit-text-fill-color: transparent;  
 } 
 
-footer { 
-    color: ;
+footer {    
     display: flex;
     justify-content: center;
     font-size: 12px;
@@ -195,9 +194,9 @@ footer .gradientWords {
     font-style: normal;
     font-weight: 400;
     src: url(../fonts/menu.woff2) format('woff2');
-  }
+}
   
-  .material-icons {
+.material-icons {
     font-family: 'Material Icons';
     font-weight: normal;
     font-style: normal;
@@ -209,24 +208,22 @@ footer .gradientWords {
     white-space: nowrap;
     word-wrap: normal;
     direction: ltr;
-    -webkit-font-feature-settings: 'liga';
-    -webkit-font-smoothing: antialiased;
     color: #fc2f00;
-  }
+}
 
-  .menuItem {
+.menuItem {
     display: block;
     margin: 2rem 4rem;
     font-size: 1.8rem;
     color: #fc2f00;
     text-decoration: none;
-  }
+}
   
-  .menuItem:hover {
+.menuItem:hover {
     text-decoration: underline;
-  }
+}
   
-  .hamburger {
+.hamburger {
     position: fixed;
     z-index: 100;
     top: 1rem;
@@ -235,16 +232,17 @@ footer .gradientWords {
     border: #fc2f00 solid 1px;
     background: white;
     cursor: pointer;
+    
     @media (min-width: 1600px) {
         right: 25rem;
     }
-  }
+}
   
-  .closeIcon {
+.closeIcon {
     display: none;
-  }
+}
   
-  .menu {
+.menu {
     position: fixed;
     transform: translateY(-100%);
     transition: transform 0.2s;
@@ -264,6 +262,6 @@ footer .gradientWords {
     }
 }
   
-  .showMenu {
+.showMenu {
     transform: translateY(0);
-  }
+}

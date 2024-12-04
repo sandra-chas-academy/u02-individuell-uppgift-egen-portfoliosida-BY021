@@ -1,4 +1,7 @@
 # u02-Individuell-uppgift
+
+~ BAKER YOUSIF
+
 u02- Individuell uppgift - Egen portfoliosida (HTML/CSS/JS)
 
 https://bakeryousif.netlify.app/
@@ -6,11 +9,12 @@ https://bakeryousif.netlify.app/
 
 ### Sammanfattning av projekt och reflektion kring styrkor och ev brister.
 
-I detta projekt har jag lärt mig att använda JSON, fetcha i JS, använda funktioner och inplementera kod i HTML med JS.
+I detta projekt har jag lärt mig att använda JSON, fetcha i JS, använda funktioner och inplementera kod i HTML med JS. Jag har upptäckt att desto mer in i kursen desto fortare och mer kompakt kodar man.
 
-Jag har valt att jobba vidare på att utveckla tidigare HTML & CSS U01 hemsidan (Pavans) där jag har gjort uppdateringar med JSON och JS men tyvärr hann jag ej bli klar med About me och Project sidorna ännu, behöver lite mer tid för att göra klart. Anledingen är för att jag varit sjuk en hel vecka som gjorde att jag missat jätte mycket och dels för att den mesta tiden har gått åt grupparbetet u03 och lärandet. Jag förstår projektets instruktioner och har implementerat uppgiftens alla delar i Home, Contact & projects men har About me och komplettering av projects kvar. Jag har under uppgiften studerar in mycket teori samtidigt som jag testar mycket kod loggar. Vidare har jag även upptäckt en brist att jag inte kan lära mig många saker samtidigt utan måste ta en sak i taget annars kommer jag ej kunna komma ihåg någonting och fastnar i kod jätte länge.
+Jag har valt att jobba vidare på att utveckla tidigare HTML & CSS U01 hemsidan (Pavans) där jag har gjort uppdateringar med JSON och JS men tyvärr hann jag ej utveckla vidare sidan som jag hade velat pga tidsbrist. Anledingen är för att jag varit sjuk en hel vecka som gjorde att jag missat jätte mycket och dels för att den mesta tiden har gått åt grupparbetet u03 och lärandet. Jag förstår projektets instruktioner och har implementerat uppgiftens alla delar på sidan.
+Jag har under uppgiften studerar in mycket teori samtidigt som jag testat mycket kod loggar (cosole.log). Vidare har jag även upptäckt en brist att jag inte kan lära mig många saker samtidigt utan måste ta en sak i taget annars kommer jag ej kunna komma ihåg någonting och fastnar i kod jätte länge.
 
-Det har varit svårt att bara lyssna och lära sig, min nya strategi är att anteckna mycket och ta en sak i taget samtidigt som jag testar kod hela tiden.
+Det har varit svårt att bara lyssna och lära sig, min nya strategi är att anteckna mycket och ta en sak i taget samtidigt som jag testar kod hela tiden. Överlag känns allt bra!
 
 ### 1. Vad kan man utveckla med hjälp av JavaScript inom frontend?
 

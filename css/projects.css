@@ -19,6 +19,7 @@ main .article {
 section {
     border-radius: 1rem;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
 
     @media (min-width:1600px) {
         display:flex;
@@ -66,10 +67,10 @@ article h2 {
 }
 
 .link_section {
- display: flex;
- justify-content: space-between;
- margin-top: 15px;
- width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    width: 100%;
 }
 
 .link {
@@ -90,7 +91,7 @@ article h2 {
     color: #000000;
     font-weight: 300;
     text-underline-offset: 3px;
- }
+}
 
  .github_icon {
     display: flex;
